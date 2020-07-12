@@ -220,6 +220,6 @@ class students:
 
 
 
-# if __init__ =='__main()__':
-s = students()
-s.welcome()
+if __name__ == '__main__':
+    s = students()
+    s.welcome()
